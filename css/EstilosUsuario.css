@@ -1,0 +1,50 @@
+header{
+    background-color: blueviolet;
+    color: #5e0c3e;
+	padding: 6px;
+	font-size: 20px;
+}
+
+.buscador{
+    text-align: right;
+}
+
+.buscador input[type="text"]{
+    margin-right: 100px;
+}
+
+body { 
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.opcion { 
+	margin-bottom: 40px; 
+	display: inline-block; 
+	padding: 5px; 
+	border: 2px solid rgb(110, 6, 124); 
+}
+.opcion1 { 
+	margin-right: 800px;
+	margin-bottom: 40px; 
+	display: inline-block; 
+	padding: 5px; 
+	border: 2px solid rgb(110, 6, 124); 
+}
+
+.perfil{/*Centra informacion de usuario*/
+	margin: 0 auto;
+    width: 30%;
+	
+}
+.Perfil1{/*Nombres y apellidos*/
+	display: flex;
+	align-items: center;
+}
+.Perfil-usuario1{/*Lejania de los cuadros nombre y apellido*/
+	margin-right: 10px;
+}
+input{/*Da espacio entre los cuadros*/
+	margin-bottom: 15px;
+}
