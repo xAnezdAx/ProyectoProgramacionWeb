@@ -1,5 +1,5 @@
 header{
-    background-color: blueviolet;
+    background-color: #ca9dce;;
     color: #5e0c3e;
 	padding: 6px;
 	font-size: 20px;
@@ -23,14 +23,14 @@ body {
 	margin-bottom: 40px; 
 	display: inline-block; 
 	padding: 5px; 
-	border: 2px solid rgb(110, 6, 124); 
+	border: 2px solid rgb(139, 71, 148); 
 }
 .opcion1 { 
 	margin-right: 800px;
 	margin-bottom: 40px; 
 	display: inline-block; 
 	padding: 5px; 
-	border: 2px solid rgb(110, 6, 124); 
+	border: 2px solid rgb(139, 71, 148); 
 }
 
 .perfil{
