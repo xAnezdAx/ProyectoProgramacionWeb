@@ -1,102 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <title>Tienda de música en formato físico</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/estilosVistaPrincipal.css">
 </head>
-<body>    
-    <nav class="navbar bg-dark navbar-dark">
-        <div class="container-fluid">
-          <img src="logo.png" alt="logo" width="50" height="50">
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-    </nav>
+
+<body>
     <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <a class="navbar-brand" href="#">Tienda de música</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <!--para pequeños dispostivos-->
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Artistas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Albumes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">oferta</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">help</a>
-                </li>
+    <section id="header">
+        <a href="#"><img src="../imagenes/logo001.jpg" class="logo" alt=""></a>
+        <input type="text" placeholder="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <div>
+            <ul id="navbar">
+                <li><a href="inicio"> Inicio</a></li>
+                <li><a href="albumes"> Albumes</a></li>
+                <li><a href="artistas"> Artistas</a></li>
+                <li><a href="ofertas"> Ofertas</a></li>
+                <li><a href="help/pqr"> Help/PQR</a></li>
+                <li id="favorito"><a href="favoritos"><i class="fa-solid fa-heart"></i> </a></li>
+                <li id="perfil"><a href="perfil"><i class="fa-regular fa-user"></i> </a></li>
+                <li id="carrito"><a href="Carrito.html"><i class="fa-solid fa-cart-shopping"></i> </a></li>
+                <a href="#" id="close"><i class="fa-solid fa-circle-xmark"></i></a>
             </ul>
         </div>
-    </nav>
+        <div id="mobile">
+            <a href="carrito"><i class="fa-solid fa-cart-shopping"></i> </a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="headerp">
+        <h2>¡Bienvenido a la tienda de música!</h2>
+    </section>
+
     <!-- Contenido de la página -->
     <div class="container my-4">
-        <h1>Bienvenido a la tienda de música</h1>
-        <p>En nuestra tienda encontrarás una amplia selección de música en formato físico. Desde clásicos hasta los últimos éxitos, tenemos todo lo que necesitas para disfrutar de tu música favorita en casa.</p>
+
+        <p>En nuestra tienda encontrarás una amplia selección de música en formato físico. Desde clásicos hasta los
+            últimos éxitos, tenemos todo lo que necesitas para disfrutar de tu música favorita en casa.</p>
         <hr>
-        <div class="row">            
-            <div class="col-md-2">
-                <div class="row my-4">    
+        <div class="row">
+            <div class="col-md-3">
+                <div class="row my-4">
                     <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Artistas favoritos</a>
-                    <a href="#" class="list-group-item list-group-item-action">Artistas favoritos</a>
-                    <a href="#" class="list-group-item list-group-item-action">Artistas favoritos</a>
-                    <a href="#" class="list-group-item list-group-item-action">Artistas favoritos</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Artistas
+                            favoritos</a>
+                        <a href="#" class="list-group-item list-group-item-action">Artistas favoritos</a>
+                        <a href="#" class="list-group-item list-group-item-action">Artistas favoritos</a>
+                        <a href="#" class="list-group-item list-group-item-action">Artistas favoritos</a>
+                    </div>
                 </div>
+                <div class="row ">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Albumes
+                            favoritos</a>
+                        <a href="#" class="list-group-item list-group-item-action">Albumes favoritos</a>
+                        <a href="#" class="list-group-item list-group-item-action">Albumes favoritos</a>
+                        <a href="#" class="list-group-item list-group-item-action">Albumes favoritos</a>
+                    </div>
                 </div>
-                <div class="row "> 
-                <div class="list-group">                 
-                    <a href="#" class="list-group-item list-group-item-action list-group-item-dark">Albumes favoritos</a>
-                    <a href="#" class="list-group-item list-group-item-action">Albumes favoritos</a>
-                    <a href="#" class="list-group-item list-group-item-action">Albumes favoritos</a>
-                    <a href="#" class="list-group-item list-group-item-action">Albumes favoritos</a>
-                </div>
-                </div>
-            </div>                
-            <div class="col-md-6">
+            </div>
+            <div class="col-md-6 my-4">
                 <div class="card mb-4 shadow-sm">
-                        <img src="logo.png" width="200" height="150" class="card-img-top" >
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                          <li class="list-group-item">An item</li>
-                          <li class="list-group-item">A second item</li>
-                          <li class="list-group-item">A third item</li>
-                        </ul>
-                        <div class="card-body">
-                          <a href="#" class="card-link">Card link</a>
-                          <a href="#" class="card-link">Another link</a>
-                        </div>
+                    <img src="../imagenes/1305134_logo.jpg" width="200" height="300" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Nargaroth</h5>
+                        <p class="card-text">Nargaroth es una banda creada en 1997 de Black Metal con influencias del
+                            Metal Progresivo y el Ambient, son provenientes de Alemania, concretamente de Sajonia. El
+                            único miembro fundador es René Wagner "Kanwulf", quien sin embargo últimamente ha renunciado
+                            a este nombre</p>
+                    </div>
+                    <ul class="list-group list-group-flush"> <!-- pendiente cambiar la informacion -->
+                        <li class="list-group-item">Todos los lanzamientos</li>
+                        <li class="list-group-item">Ultimo lanzamiento</li>
+                        <li class="list-group-item">sitio oficial</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link">Todos los lanzamientos</a>
+                        <a href="#" class="card-link">Ultimo lanzamiento</a>
+                        <a href="#" class="card-link">sitio oficial</a>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="row my-4">
                     <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Card image cap">
+                        <img class="card-img-top" src="../imagenes/producto001.jpg" width="300" height="200"
+                            alt="Card image cap">
                         <div class="card-body">
-                            <h4 class="card-title">Álbum 3</h4>
-                            <p class="card-text">Descripción del álbum 3.</p>
+                            <h4 class="card-title">Álbum 1</h4>
+                            <p class="card-text">Descripción del álbum 1</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-sm btn-outline-secondary">Ver detalles</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Agregar al carrito</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Agregar al
+                                        carrito</button>
                                 </div>
                                 <small class="text-muted">$24.99</small>
                             </div>
@@ -105,26 +112,69 @@
                 </div>
                 <div class="row my-4">
                     <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Card image cap">
+                        <img class="card-img-top" src="../imagenes/producto002.jpg" width="300" height="200"
+                            alt="Card image cap">
                         <div class="card-body">
                             <h4 class="card-title">Álbum 3</h4>
                             <p class="card-text">Descripción del álbum 3.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-sm btn-outline-secondary">Ver detalles</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Agregar al carrito</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Agregar al
+                                        carrito</button>
                                 </div>
                                 <small class="text-muted">$24.99</small>
                             </div>
                         </div>
                     </div>
-                </div>              
+                </div>
             </div>
-        </div>        
+        </div>
     </div>
-    <!-- Pie de página -->
+    <!-- Pie de página 
     <footer class="container-fluid bg-dark text-center text-white py-3">
         <p>Tienda de música &copy; 2023</p>
+    </footer> -->
+    <!-- Pie de página -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="../imagenes/logo001.jpg" alt="">
+            <h4><strong>Contactanos</strong> </h4>
+            <p><strong> Direccion</strong> Calle</p>
+            <p><strong> Telefono</strong> 320</p>
+            <div class="follow">
+                <h4>Siguenos</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col info">
+            <h4>Acerca de</h4>
+            <a href="#">Sobre nosotros</a>
+            <a href="#">Información de envío</a>
+            <a href="#">Política de privacidad</a>
+            <a href="#">Términos y condiciones</a>
+        </div>
+        <div class="col info">
+            <h4>informacion</h4>
+            <a href="#">Politicas de privacidad</a>
+            <a href="#">terminos y condiciones</a>
+        </div>
+        <div class="col install">
+            <p>Medios de pago seguros</p>
+            <img src="../imagenes/tarjetass.png" alt="">
+        </div>
+        <div class="copy">
+            <p>Copyrigth</p>
+        </div>
     </footer>
+    <script src="../javaScript/scriptVistaPrincipal.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/7b319a5c76.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
