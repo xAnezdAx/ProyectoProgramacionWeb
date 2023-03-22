@@ -33,18 +33,18 @@ body {
 	border: 2px solid rgb(110, 6, 124); 
 }
 
-.perfil{/*Centra informacion de usuario*/
+.perfil{
 	margin: 0 auto;
     width: 30%;
 	
 }
-.Perfil1{/*Nombres y apellidos*/
+.Perfil1{
 	display: flex;
 	align-items: center;
 }
-.Perfil-usuario1{/*Lejania de los cuadros nombre y apellido*/
+.Perfil-usuario1{
 	margin-right: 10px;
 }
-input{/*Da espacio entre los cuadros*/
+input{
 	margin-bottom: 15px;
 }
